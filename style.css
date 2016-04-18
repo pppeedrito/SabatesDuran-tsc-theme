@@ -5,3 +5,69 @@ Author: Dídac Sabatés
 Description: Twenty Sixteen Child for my blog.
 Template: twentysixteen
  */
+
+/**
+ * 11.2 - Posts and pages
+ */
+
+.entry-header,
+.entry-summary,
+.entry-content,
+.entry-footer,
+.page-content {
+	margin-left: 15%;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-content {
+    float: none;
+    /*width: 71.42857144%;*/
+}
+
+body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
+     float: none;
+     margin-right: -100%;
+     margin-left: 15%;
+     width: 71.42857144%;
+     /*width: 50.00000001%;*/
+}
+
+@media screen and (min-width: 44.375em) {
+    .entry-header,
+    .post-thumbnail,
+    .entry-content,
+    .entry-summary,
+    .entry-footer,
+    .comments-area,
+    .image-navigation,
+    .post-navigation,
+    .page-header,
+    .page-content,
+    .content-bottom-widgets {
+        margin-right: 23.0769%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (min-width: 61.5625em) {
+    body.no-sidebar:not(.search-results) article:not(.type-page) .entry-footer {
+        margin: 50px 15% 0;
+        width: 71.42857144%;
+    }
+
+    .single .byline,
+	.full-size-link,
+	body:not(.search-results).group-blog .byline,
+	body:not(.search-results) .entry-format,
+	body:not(.search-results) .cat-links,
+	body:not(.search-results) .tags-links,
+	body:not(.search-results) article:not(.sticky) .posted-on,
+	body:not(.search-results) article:not(.type-page) .comments-link,
+	body:not(.search-results) article:not(.type-page) .entry-footer .edit-link {
+		display: inline-block;
+		margin-bottom: 0.5384615385em;
+	}
+
+    body:not(.search-results) article:not(.type-page) .entry-footer > span:not(:last-child):after {
+		display: inline-block;
+	}
+}
