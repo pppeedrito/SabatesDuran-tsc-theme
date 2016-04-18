@@ -18,6 +18,10 @@ Template: twentysixteen
 	margin-left: 15%;
 }
 
+.site-description {
+    margin: 0 0 1.75em;
+}
+
 body:not(.search-results) article:not(.type-page) .entry-content {
     float: none;
     /*width: 71.42857144%;*/
