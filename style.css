@@ -18,6 +18,10 @@ Template: twentysixteen
 	margin-left: 15%;
 }
 
+.entry-content ul, .entry-summary ul, .comment-content ul, .entry-content ol, .entry-summary ol, .comment-content ol {
+	margin-left: 15px;
+}
+
 .site-description {
     margin: 0 0 1.75em;
 }
