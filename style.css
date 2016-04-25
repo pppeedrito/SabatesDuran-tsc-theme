@@ -78,4 +78,9 @@ body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
     body:not(.search-results) article:not(.type-page) .entry-footer > span:not(:last-child):after {
 		display: inline-block;
 	}
+	
+    body:not(.search-results) article:not(.type-page) .entry-footer .avatar {
+	display: inline-block;
+	width: 21px;
+    }
 }
